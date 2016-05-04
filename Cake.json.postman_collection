@@ -1,0 +1,131 @@
+{
+	"id": "1779b98d-5f8a-ede5-b196-556b8a1d9cc0",
+	"name": "Cake",
+	"description": "",
+	"order": [
+		"2b57dfda-662f-07ea-4553-bab379218ef5",
+		"d2bfa36b-fb1d-134a-77b3-e32aaa2e3e02",
+		"1ba39d19-55e3-fdad-a6b3-618b19317cec",
+		"894c309d-d606-5542-947c-acc98b804ca0",
+		"6741eac2-438d-11ed-271b-cb5453bd65ec"
+	],
+	"folders": [],
+	"timestamp": 1462379334634,
+	"owner": "",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "1ba39d19-55e3-fdad-a6b3-618b19317cec",
+			"headers": "Accept: application/json\n",
+			"url": "{{api}}/cakes/3",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462400282342,
+			"name": "Get Cake by Id",
+			"description": "",
+			"collectionId": "1779b98d-5f8a-ede5-b196-556b8a1d9cc0",
+			"responses": []
+		},
+		{
+			"id": "2b57dfda-662f-07ea-4553-bab379218ef5",
+			"headers": "Accept: application/json\n",
+			"url": "{{api}}/cakes",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462397781645,
+			"name": "Get Cakes",
+			"description": "",
+			"collectionId": "1779b98d-5f8a-ede5-b196-556b8a1d9cc0",
+			"responses": []
+		},
+		{
+			"id": "6741eac2-438d-11ed-271b-cb5453bd65ec",
+			"headers": "Accept: application/json\n",
+			"url": "{{api}}/cakes/3",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462404235870,
+			"name": "Delete Cake",
+			"description": "",
+			"collectionId": "1779b98d-5f8a-ede5-b196-556b8a1d9cc0",
+			"responses": []
+		},
+		{
+			"id": "894c309d-d606-5542-947c-acc98b804ca0",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"url": "{{api}}/cakes/3?description=test2&layers=2",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "description",
+					"value": "test",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "layers",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462400451519,
+			"name": "Update Cake",
+			"description": "",
+			"collectionId": "1779b98d-5f8a-ede5-b196-556b8a1d9cc0",
+			"responses": []
+		},
+		{
+			"id": "d2bfa36b-fb1d-134a-77b3-e32aaa2e3e02",
+			"headers": "Accept: application/json\n",
+			"url": "{{api}}/cakes",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "type",
+					"value": "chocolate",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462396719147,
+			"name": "Create Cake",
+			"description": "",
+			"collectionId": "1779b98d-5f8a-ede5-b196-556b8a1d9cc0",
+			"responses": []
+		}
+	]
+}
